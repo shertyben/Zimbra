@@ -2,9 +2,9 @@
 
 DATE=$(date +"%F")
 FILE="users_password_$DATE.sh"
-HOST1="192.168.106.122"
-HOST2="172.28.10.6"
-PORT2="7993"
+HOST1="X.X.X.X"
+HOST2="Y.Y.Y.Y"
+PORT2="ABCD"
 input="/tmp/users_messagerie_$DATE.txt"
 input1="/tmp/synchronisation_$DATE.log"
 
@@ -38,4 +38,4 @@ done < "$input"
 echo "Fin modification mot de passe utilisateurs"  >> $input1
 
 cd /tmp/
-#./users_password_$DATE.sh
+./users_password_$DATE.sh
