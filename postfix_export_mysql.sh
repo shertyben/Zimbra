@@ -1,8 +1,8 @@
 #!/bin/bash
 MYSQLHOST="localhost"
-MYSQLDB="postfix"
-MYSQLUSER="root"
-MYSQLPASS="oracle"
+MYSQLDB="database"
+MYSQLUSER="user"
+MYSQLPASS="pass"
  
 #File name with date only
 DATE=$(date +"%F")
